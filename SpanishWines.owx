@@ -5,7 +5,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines">
+     ontologyIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines"
+     versionIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1">
     <Prefix name="" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -16,8 +17,8 @@
     <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
     <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
-    <Prefix name="UOCWines" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3/UOCWines#"/>
     <Prefix name="webprotege" IRI="http://protege.stanford.edu/webprotege/"/>
+    <Prefix name="SpanishWines" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <Literal>Esteve Colomé i Valentí</Literal>
@@ -28,7 +29,15 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:license"/>
-        <Literal>http://creativecommons.org/licenses/by-sa/3.0/es/</Literal>
+        <Literal>SpanishWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <Literal>https://creativecommons.org/licenses/by/4.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#title"/>
+        <Literal>SpanishWines</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -44,11 +53,11 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionIRI"/>
-        <Literal>http://www.w3.org/2002/07/owl</Literal>
+        <Literal>http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>Version 1.0</Literal>
+        <Literal>Version 2.1</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Alcoholic_beverage"/>
@@ -367,6 +376,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#title"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
