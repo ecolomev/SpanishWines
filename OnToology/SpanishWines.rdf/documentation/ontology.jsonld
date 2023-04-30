@@ -569,32 +569,37 @@
   "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
     "@value" : "Esteve Colomé i Valentí"
   } ],
   "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@language" : "en",
     "@value" : "UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67\nhttps://creativecommons.org/licenses/by/4.0/"
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
     "@value" : "SpanishWines"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "Ontology created as stated in exercise 2 PAC2 UOC 2023"
   }, {
+    "@language" : "en",
     "@value" : "This ontology contains the basic concepts, properties and relations for describing wines."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
     "@value" : "UOCWines Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1"
-  }, {
-    "@value" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "Version 2.1"
+    "@language" : "en",
+    "@value" : "2.1"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#1902_Centenary_Carignan_Priorat_2013",
