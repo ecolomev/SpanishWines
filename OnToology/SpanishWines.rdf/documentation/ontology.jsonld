@@ -593,13 +593,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "UOCWines Ontology"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@language" : "en",
-    "@value" : "2.1"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#1902_Centenary_Carignan_Priorat_2013",
