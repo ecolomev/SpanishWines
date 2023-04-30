@@ -1,2 +1,0 @@
-# SpanishWines
-SpanishWines ontology repository
