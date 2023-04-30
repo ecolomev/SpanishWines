@@ -5,8 +5,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines"
-     versionIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1">
+     ontologyIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines">
     <Prefix name="" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
