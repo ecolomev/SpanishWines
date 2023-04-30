@@ -1,0 +1,157 @@
+{
+  "@context" : {
+    "versionIRI" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionIRI"
+    },
+    "Popular_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Popular_wine"
+    },
+    "Grape_variety" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Grape_variety"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Winery" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Winery"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Country"
+    },
+    "Organization" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Organization"
+    },
+    "wine_region_of" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#wine_region_of",
+      "@type" : "@id"
+    },
+    "country_of" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#country_of",
+      "@type" : "@id"
+    },
+    "Cheap_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cheap_wine"
+    },
+    "acidity_value" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#acidity_value"
+    },
+    "White_grape" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#White_grape"
+    },
+    "Great_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Great_wine"
+    },
+    "White_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#White_wine"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Cava_grape" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava_grape"
+    },
+    "rating_value" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#rating_value"
+    },
+    "Red_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Red_wine"
+    },
+    "Distilled_alcoholic_beverage" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Distilled_alcoholic_beverage"
+    },
+    "Cava_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava_wine"
+    },
+    "Geographic_region" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Rose_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Rose_wine"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "Sparkling_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Sparkling_wine"
+    },
+    "produced_by" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#produced_by",
+      "@type" : "@id"
+    },
+    "has_wine_region" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#has_wine_region",
+      "@type" : "@id"
+    },
+    "geographic_region_in" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#geographic_region_in",
+      "@type" : "@id"
+    },
+    "elaborated_with_fermented_grape" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#elaborated_with_fermented_grape",
+      "@type" : "@id"
+    },
+    "body_value" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#body_value"
+    },
+    "produces" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#produces",
+      "@type" : "@id"
+    },
+    "Fermented_alcoholic_beverage" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Fermented_alcoholic_beverage"
+    },
+    "located_in" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#located_in",
+      "@type" : "@id"
+    },
+    "year_value" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#year_value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "location_of" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#location_of",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Wine_region" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine_region"
+    },
+    "grape_of_elaboration_of" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#grape_of_elaboration_of",
+      "@type" : "@id"
+    },
+    "numreviews_value" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#numreviews_value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "Red_grape" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Red_grape"
+    },
+    "Expensive_wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Expensive_wine"
+    },
+    "VCard" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#VCard"
+    },
+    "Alcoholic_beverage" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Alcoholic_beverage"
+    },
+    "Wine" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine"
+    },
+    "price_value" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#price_value"
+    }
+  }
+}
