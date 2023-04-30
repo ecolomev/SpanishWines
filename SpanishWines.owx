@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/esteve/ontologies/2023/3/UOCWines"
+     xml:base="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/UOCWines">
+     ontologyIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines">
     <Prefix name="" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -1336,6 +1336,10 @@
     </DataPropertyRange>
     <DLSafeRule>
         <Body>
+            <ClassAtom>
+                <Class IRI="#Cava_grape"/>
+                <Variable IRI="urn:swrl:var#g"/>
+            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#elaborated_with_fermented_grape"/>
                 <Variable IRI="urn:swrl:var#w"/>
@@ -1344,10 +1348,6 @@
             <ClassAtom>
                 <Class IRI="#Wine"/>
                 <Variable IRI="urn:swrl:var#w"/>
-            </ClassAtom>
-            <ClassAtom>
-                <Class IRI="#Cava_grape"/>
-                <Variable IRI="urn:swrl:var#g"/>
             </ClassAtom>
         </Body>
         <Head>
@@ -1359,10 +1359,6 @@
     </DLSafeRule>
     <DLSafeRule>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Red_grape"/>
-                <Variable IRI="urn:swrl:var#g"/>
-            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#elaborated_with_fermented_grape"/>
                 <Variable IRI="urn:swrl:var#w"/>
@@ -1371,6 +1367,10 @@
             <ClassAtom>
                 <Class IRI="#Wine"/>
                 <Variable IRI="urn:swrl:var#w"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Red_grape"/>
+                <Variable IRI="urn:swrl:var#g"/>
             </ClassAtom>
         </Body>
         <Head>
@@ -1382,6 +1382,10 @@
     </DLSafeRule>
     <DLSafeRule>
         <Body>
+            <ClassAtom>
+                <Class IRI="#White_grape"/>
+                <Variable IRI="urn:swrl:var#g"/>
+            </ClassAtom>
             <ObjectPropertyAtom>
                 <ObjectProperty IRI="#elaborated_with_fermented_grape"/>
                 <Variable IRI="urn:swrl:var#w"/>
@@ -1390,10 +1394,6 @@
             <ClassAtom>
                 <Class IRI="#Wine"/>
                 <Variable IRI="urn:swrl:var#w"/>
-            </ClassAtom>
-            <ClassAtom>
-                <Class IRI="#White_grape"/>
-                <Variable IRI="urn:swrl:var#g"/>
             </ClassAtom>
         </Body>
         <Head>
@@ -1428,19 +1428,19 @@
     </DLSafeRule>
     <DLSafeRule>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Wine"/>
-                <Variable IRI="urn:swrl:var#w"/>
-            </ClassAtom>
-            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
-                <Variable IRI="urn:swrl:var#p"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
-            </BuiltInAtom>
             <DataPropertyAtom>
                 <DataProperty IRI="#price_value"/>
                 <Variable IRI="urn:swrl:var#w"/>
                 <Variable IRI="urn:swrl:var#p"/>
             </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
+                <Variable IRI="urn:swrl:var#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="urn:swrl:var#w"/>
+            </ClassAtom>
         </Body>
         <Head>
             <ClassAtom>
@@ -1455,15 +1455,15 @@
                 <Variable IRI="urn:swrl:var#p"/>
                 <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
             </BuiltInAtom>
-            <ClassAtom>
-                <Class IRI="#Wine"/>
-                <Variable IRI="urn:swrl:var#w"/>
-            </ClassAtom>
             <DataPropertyAtom>
                 <DataProperty IRI="#price_value"/>
                 <Variable IRI="urn:swrl:var#w"/>
                 <Variable IRI="urn:swrl:var#p"/>
             </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="urn:swrl:var#w"/>
+            </ClassAtom>
         </Body>
         <Head>
             <ClassAtom>
@@ -1474,15 +1474,15 @@
     </DLSafeRule>
     <DLSafeRule>
         <Body>
-            <ClassAtom>
-                <Class IRI="#Wine"/>
-                <Variable IRI="urn:swrl:var#w"/>
-            </ClassAtom>
             <DataPropertyAtom>
                 <DataProperty IRI="#rating_value"/>
                 <Variable IRI="urn:swrl:var#w"/>
                 <Variable IRI="urn:swrl:var#r"/>
             </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="urn:swrl:var#w"/>
+            </ClassAtom>
             <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
                 <Variable IRI="urn:swrl:var#r"/>
                 <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
