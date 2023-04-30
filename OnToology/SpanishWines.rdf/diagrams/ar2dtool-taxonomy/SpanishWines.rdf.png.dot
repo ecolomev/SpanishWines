@@ -1,0 +1,23 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://www.w3.org/2006/vcard/ns#VCard" "SpanishWines:Winery" "SpanishWines:Distilled_alcoholic_beverage" "SpanishWines:Fermented_alcoholic_beverage" "SpanishWines:Red_grape" "SpanishWines:Cheap_wine" "SpanishWines:Expensive_wine" "SpanishWines:Cava_grape" "SpanishWines:Alcoholic_beverage" "SpanishWines:White_wine" "SpanishWines:Sparkling_wine" "SpanishWines:Rose_wine" "SpanishWines:White_grape" "SpanishWines:Grape_variety" "SpanishWines:Great_wine" "SpanishWines:Wine" "http://www.w3.org/2006/vcard/ns#Organization" "SpanishWines:Cava_wine" "SpanishWines:Red_wine" "SpanishWines:Popular_wine" ; /*classes style*/
+	"SpanishWines:Popular_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Sparkling_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:White_grape" -> "SpanishWines:Grape_variety" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Rose_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Red_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+	"http://www.w3.org/2006/vcard/ns#Organization" -> "http://www.w3.org/2006/vcard/ns#VCard" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Wine" -> "SpanishWines:Fermented_alcoholic_beverage" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Great_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Fermented_alcoholic_beverage" -> "SpanishWines:Alcoholic_beverage" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Red_grape" -> "SpanishWines:Grape_variety" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Cheap_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Distilled_alcoholic_beverage" -> "SpanishWines:Alcoholic_beverage" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Winery" -> "http://www.w3.org/2006/vcard/ns#Organization" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Cava_wine" -> "SpanishWines:Sparkling_wine" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:White_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Cava_grape" -> "SpanishWines:Grape_variety" [ label = "rdfs:subClassOf" ];
+	"SpanishWines:Expensive_wine" -> "SpanishWines:Wine" [ label = "rdfs:subClassOf" ];
+
+}
