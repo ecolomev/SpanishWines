@@ -1,12 +1,15 @@
 <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1> .
 <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://purl.org/dc/elements/1.1/creator> "Esteve Colomé i Valentí" .
 <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://purl.org/dc/elements/1.1/rights> "UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67" .
-<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://purl.org/dc/terms/license> "http://creativecommons.org/licenses/by-sa/3.0/es/" .
+<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://purl.org/dc/terms/license> "SpanishWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67" .
+<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title> "SpanishWines" .
 <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology created as stated in exercise 2 PAC2 UOC 2023" .
 <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology contains the basic concepts, properties and relations for describing wines." .
 <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2000/01/rdf-schema#label> "UOCWines Ontology" .
-<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2002/07/owl#versionIRI> "http://www.w3.org/2002/07/owl" .
-<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0" .
+<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2002/07/owl#versionIRI> "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1" .
+<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> <http://www.w3.org/2002/07/owl#versionInfo> "Version 2.1" .
 # 
 # 
 # #################################################################
@@ -27,6 +30,9 @@
 # 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title
+<http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2000/01/rdf-schema#sameAs
 <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

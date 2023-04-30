@@ -572,7 +572,12 @@
     "@value" : "UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@value" : "http://creativecommons.org/licenses/by-sa/3.0/es/"
+    "@value" : "SpanishWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67"
+  }, {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title" : [ {
+    "@value" : "SpanishWines"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Ontology created as stated in exercise 2 PAC2 UOC 2023"
@@ -583,10 +588,12 @@
     "@value" : "UOCWines Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@value" : "http://www.w3.org/2002/07/owl"
+    "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1"
+  }, {
+    "@value" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "Version 1.0"
+    "@value" : "Version 2.1"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#1902_Centenary_Carignan_Priorat_2013",
@@ -1702,6 +1709,9 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid14"
   } ]
+}, {
+  "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#wine_region_of",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],

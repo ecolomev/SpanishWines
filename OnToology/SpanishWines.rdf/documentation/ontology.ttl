@@ -7,14 +7,17 @@
 @base <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#> .
 
 <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines> rdf:type owl:Ontology ;
+                                                                    owl:versionIRI <http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1> ;
                                                                     <http://purl.org/dc/elements/1.1/creator> "Esteve Colomé i Valentí" ;
                                                                     <http://purl.org/dc/elements/1.1/rights> "UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67" ;
-                                                                    <http://purl.org/dc/terms/license> "http://creativecommons.org/licenses/by-sa/3.0/es/" ;
+                                                                    <http://purl.org/dc/terms/license> "SpanishWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67" ,
+                                                                                                       "https://creativecommons.org/licenses/by/4.0/" ;
+                                                                    :title "SpanishWines" ;
                                                                     rdfs:comment "Ontology created as stated in exercise 2 PAC2 UOC 2023" ,
                                                                                  "This ontology contains the basic concepts, properties and relations for describing wines." ;
                                                                     rdfs:label "UOCWines Ontology" ;
-                                                                    owl:versionIRI "http://www.w3.org/2002/07/owl" ;
-                                                                    owl:versionInfo "Version 1.0" .
+                                                                    owl:versionIRI "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1" ;
+                                                                    owl:versionInfo "Version 2.1" .
 
 #################################################################
 #    Annotation properties
@@ -34,6 +37,10 @@
 
 ###  http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title
+:title rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#sameAs
