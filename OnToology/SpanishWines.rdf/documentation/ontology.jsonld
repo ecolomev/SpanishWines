@@ -560,6 +560,9 @@
   "@id" : "http://purl.org/dc/elements/1.1/rights",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -569,15 +572,13 @@
     "@value" : "Esteve Colomé i Valentí"
   } ],
   "http://purl.org/dc/elements/1.1/rights" : [ {
-    "@value" : "UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67"
+    "@value" : "UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67\nhttps://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "SpanishWines"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@value" : "SpanishWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67"
-  }, {
     "@value" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
-  "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title" : [ {
-    "@value" : "SpanishWines"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Ontology created as stated in exercise 2 PAC2 UOC 2023"
@@ -1709,9 +1710,6 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid14"
   } ]
-}, {
-  "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#wine_region_of",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],

@@ -104,7 +104,7 @@
       "@type" : "@id"
     },
     "title" : {
-      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title"
+      "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "Fermented_alcoholic_beverage" : {
       "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Fermented_alcoholic_beverage"
