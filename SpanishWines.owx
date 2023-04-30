@@ -21,40 +21,40 @@
     <Prefix name="SpanishWines" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <Literal>Esteve Colomé i Valentí</Literal>
+        <Literal xml:lang="en">Esteve Colomé i Valentí</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:rights"/>
-        <Literal>UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67
+        <Literal xml:lang="en">UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67
 https://creativecommons.org/licenses/by/4.0/</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <Literal>SpanishWines</Literal>
+        <Literal xml:lang="en">SpanishWines</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:license"/>
-        <Literal>https://creativecommons.org/licenses/by/4.0/</Literal>
+        <IRI>https://creativecommons.org/licenses/by/4.0/</IRI>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>Ontology created as stated in exercise 2 PAC2 UOC 2023</Literal>
+        <Literal xml:lang="en">Ontology created as stated in exercise 2 PAC2 UOC 2023</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>This ontology contains the basic concepts, properties and relations for describing wines.</Literal>
+        <Literal xml:lang="en">This ontology contains the basic concepts, properties and relations for describing wines.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal>UOCWines Ontology</Literal>
+        <Literal xml:lang="en">UOCWines Ontology</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionIRI"/>
-        <Literal>http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1</Literal>
+        <IRI>/2.1</IRI>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>Version 2.1</Literal>
+        <Literal xml:lang="en">2.1</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Alcoholic_beverage"/>
