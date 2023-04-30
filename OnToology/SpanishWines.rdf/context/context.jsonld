@@ -103,6 +103,9 @@
       "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#produces",
       "@type" : "@id"
     },
+    "title" : {
+      "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title"
+    },
     "Fermented_alcoholic_beverage" : {
       "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Fermented_alcoholic_beverage"
     },

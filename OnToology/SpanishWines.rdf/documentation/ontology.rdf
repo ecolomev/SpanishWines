@@ -12,14 +12,17 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:SpanishWines="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1"/>
         <dc:creator>Esteve Colomé i Valentí</dc:creator>
         <dc:rights>UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67</dc:rights>
-        <terms:license>http://creativecommons.org/licenses/by-sa/3.0/es/</terms:license>
+        <terms:license>SpanishWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67</terms:license>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <title>SpanishWines</title>
         <rdfs:comment>Ontology created as stated in exercise 2 PAC2 UOC 2023</rdfs:comment>
         <rdfs:comment>This ontology contains the basic concepts, properties and relations for describing wines.</rdfs:comment>
         <rdfs:label>UOCWines Ontology</rdfs:label>
-        <owl:versionIRI>http://www.w3.org/2002/07/owl</owl:versionIRI>
-        <owl:versionInfo>Version 1.0</owl:versionInfo>
+        <owl:versionIRI>http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1</owl:versionIRI>
+        <owl:versionInfo>Version 2.1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -61,6 +64,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#title"/>
     
 
 
