@@ -9,9 +9,6 @@
     "Grape_variety" : {
       "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Grape_variety"
     },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
-    },
     "Winery" : {
       "@id" : "http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Winery"
     },
