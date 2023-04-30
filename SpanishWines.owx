@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines">
-    <Prefix name="" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -18,7 +18,6 @@
     <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="webprotege" IRI="http://protege.stanford.edu/webprotege/"/>
-    <Prefix name="SpanishWines" IRI="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
         <Literal xml:lang="en">Esteve Colomé i Valentí</Literal>
@@ -47,14 +46,6 @@ https://creativecommons.org/licenses/by/4.0/</Literal>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <Literal xml:lang="en">UOCWines Ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionIRI"/>
-        <IRI>/2.1</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en">2.1</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Alcoholic_beverage"/>

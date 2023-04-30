@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/esteve/ontologies/2023/3#"
-     xml:base="http://www.semanticweb.org/esteve/ontologies/2023/3"
+<rdf:RDF xmlns="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#"
+     xml:base="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -11,8 +11,7 @@
      xmlns:vaem="http://www.linkedmodel.org/schema/vaem#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:webprotege="http://protege.stanford.edu/webprotege/"
-     xmlns:SpanishWines="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#">
+     xmlns:webprotege="http://protege.stanford.edu/webprotege/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines">
         <dc:creator xml:lang="en">Esteve Colomé i Valentí</dc:creator>
         <dc:rights xml:lang="en">UOCWines is licensed under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license version 4.0.67
@@ -22,8 +21,6 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
         <rdfs:comment xml:lang="en">Ontology created as stated in exercise 2 PAC2 UOC 2023</rdfs:comment>
         <rdfs:comment xml:lang="en">This ontology contains the basic concepts, properties and relations for describing wines.</rdfs:comment>
         <rdfs:label xml:lang="en">UOCWines Ontology</rdfs:label>
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines/2.1"/>
-        <owl:versionInfo xml:lang="en">2.1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -636,7 +633,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Alella">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine_region"/>
-        <SpanishWines:located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Catalunya_region"/>
+        <located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Catalunya_region"/>
     </owl:NamedIndividual>
     
 
@@ -677,7 +674,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Andalucia_region">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"/>
-        <SpanishWines:geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
+        <geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
     </owl:NamedIndividual>
     
 
@@ -686,7 +683,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Aragon_region">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"/>
-        <SpanishWines:geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
+        <geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
     </owl:NamedIndividual>
     
 
@@ -735,7 +732,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Castilla_la_Mancha_region">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"/>
-        <SpanishWines:geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
+        <geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
     </owl:NamedIndividual>
     
 
@@ -744,7 +741,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Castilla_y_Leon_region">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"/>
-        <SpanishWines:geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
+        <geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
     </owl:NamedIndividual>
     
 
@@ -753,7 +750,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Catalunya_region">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"/>
-        <SpanishWines:geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
+        <geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
     </owl:NamedIndividual>
     
 
@@ -762,7 +759,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine_region"/>
-        <SpanishWines:located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Catalunya_region"/>
+        <located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Catalunya_region"/>
     </owl:NamedIndividual>
     
 
@@ -770,15 +767,15 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
     <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava_Celler_Batlle_2009 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava_Celler_Batlle_2009">
-        <SpanishWines:elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava_grape"/>
-        <SpanishWines:has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava"/>
-        <SpanishWines:produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Gramona"/>
-        <SpanishWines:acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</SpanishWines:acidity_value>
-        <SpanishWines:body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</SpanishWines:body_value>
-        <SpanishWines:numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">102</SpanishWines:numreviews_value>
-        <SpanishWines:price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59.75</SpanishWines:price_value>
-        <SpanishWines:rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</SpanishWines:rating_value>
-        <SpanishWines:year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2009</SpanishWines:year_value>
+        <elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava_grape"/>
+        <has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cava"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Gramona"/>
+        <acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</acidity_value>
+        <body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</body_value>
+        <numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">102</numreviews_value>
+        <price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59.75</price_value>
+        <rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</rating_value>
+        <year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2009</year_value>
     </owl:NamedIndividual>
     
 
@@ -794,15 +791,15 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
     <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cerro_Anon_Rioja_Gran_Reserva_2015 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Cerro_Anon_Rioja_Gran_Reserva_2015">
-        <SpanishWines:elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Rioja_Red"/>
-        <SpanishWines:has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Rioja"/>
-        <SpanishWines:produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Bodegas_Olarra"/>
-        <SpanishWines:acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</SpanishWines:acidity_value>
-        <SpanishWines:body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</SpanishWines:body_value>
-        <SpanishWines:numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">258</SpanishWines:numreviews_value>
-        <SpanishWines:price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9</SpanishWines:price_value>
-        <SpanishWines:rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</SpanishWines:rating_value>
-        <SpanishWines:year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2015</SpanishWines:year_value>
+        <elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Rioja_Red"/>
+        <has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Rioja"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Bodegas_Olarra"/>
+        <acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</acidity_value>
+        <body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</body_value>
+        <numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">258</numreviews_value>
+        <price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.9</price_value>
+        <rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</rating_value>
+        <year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2015</year_value>
     </owl:NamedIndividual>
     
 
@@ -818,15 +815,15 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
     <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Chardonnay_Fermentado_en_Barrica_2018 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Chardonnay_Fermentado_en_Barrica_2018">
-        <SpanishWines:elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Chardonnay"/>
-        <SpanishWines:has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Somontano"/>
-        <SpanishWines:produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Enate"/>
-        <SpanishWines:acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</SpanishWines:acidity_value>
-        <SpanishWines:body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</SpanishWines:body_value>
-        <SpanishWines:numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">603</SpanishWines:numreviews_value>
-        <SpanishWines:price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.9</SpanishWines:price_value>
-        <SpanishWines:rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</SpanishWines:rating_value>
-        <SpanishWines:year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2018</SpanishWines:year_value>
+        <elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Chardonnay"/>
+        <has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Somontano"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Enate"/>
+        <acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</acidity_value>
+        <body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</body_value>
+        <numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">603</numreviews_value>
+        <price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.9</price_value>
+        <rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</rating_value>
+        <year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2018</year_value>
     </owl:NamedIndividual>
     
 
@@ -851,7 +848,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Extremadura_region">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"/>
-        <SpanishWines:geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
+        <geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
     </owl:NamedIndividual>
     
 
@@ -901,7 +898,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#La_Rioja_region">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Geographic_region"/>
-        <SpanishWines:geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
+        <geographic_region_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Spain"/>
     </owl:NamedIndividual>
     
 
@@ -917,14 +914,14 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
     <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Mas_La_Plana_Cabernet_Sauvignon_2016 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Mas_La_Plana_Cabernet_Sauvignon_2016">
-        <SpanishWines:has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Penedes"/>
-        <SpanishWines:produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Familia_Torres"/>
-        <SpanishWines:acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</SpanishWines:acidity_value>
-        <SpanishWines:body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</SpanishWines:body_value>
-        <SpanishWines:numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">964</SpanishWines:numreviews_value>
-        <SpanishWines:price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56.26</SpanishWines:price_value>
-        <SpanishWines:rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</SpanishWines:rating_value>
-        <SpanishWines:year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2016</SpanishWines:year_value>
+        <has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Penedes"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Familia_Torres"/>
+        <acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</acidity_value>
+        <body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</body_value>
+        <numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">964</numreviews_value>
+        <price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56.26</price_value>
+        <rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</rating_value>
+        <year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2016</year_value>
     </owl:NamedIndividual>
     
 
@@ -988,15 +985,15 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
     <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Porrera_Vi_de_Vila_2017 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Porrera_Vi_de_Vila_2017">
-        <SpanishWines:elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorat_Red"/>
-        <SpanishWines:has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorato"/>
-        <SpanishWines:produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Vall_Llach"/>
-        <SpanishWines:acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</SpanishWines:acidity_value>
-        <SpanishWines:body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</SpanishWines:body_value>
-        <SpanishWines:numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">122</SpanishWines:numreviews_value>
-        <SpanishWines:price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.95</SpanishWines:price_value>
-        <SpanishWines:rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</SpanishWines:rating_value>
-        <SpanishWines:year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2017</SpanishWines:year_value>
+        <elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorat_Red"/>
+        <has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorato"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Vall_Llach"/>
+        <acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</acidity_value>
+        <body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</body_value>
+        <numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">122</numreviews_value>
+        <price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.95</price_value>
+        <rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</rating_value>
+        <year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2017</year_value>
     </owl:NamedIndividual>
     
 
@@ -1013,7 +1010,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorato">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine_region"/>
-        <SpanishWines:located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Catalunya_region"/>
+        <located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Catalunya_region"/>
         <rdfs:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://dbpedia.org/page/Priorat_(DOQ)</rdfs:sameAs>
     </owl:NamedIndividual>
     
@@ -1039,7 +1036,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Ribera_del_Duero">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine_region"/>
-        <SpanishWines:located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Castilla_y_Leon_region"/>
+        <located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Castilla_y_Leon_region"/>
     </owl:NamedIndividual>
     
 
@@ -1048,7 +1045,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Rioja">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine_region"/>
-        <SpanishWines:located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#La_Rioja_region"/>
+        <located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#La_Rioja_region"/>
     </owl:NamedIndividual>
     
 
@@ -1081,7 +1078,7 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Somontano">
         <rdf:type rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Wine_region"/>
-        <SpanishWines:located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Aragon_region"/>
+        <located_in rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Aragon_region"/>
     </owl:NamedIndividual>
     
 
@@ -1129,15 +1126,15 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
     <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Unico_Reserva_Especial_Edicion_1985 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Unico_Reserva_Especial_Edicion_1985">
-        <SpanishWines:elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Ribera_Del_Duero_Red"/>
-        <SpanishWines:has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Ribera_del_Duero"/>
-        <SpanishWines:produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Vega_Sicilia"/>
-        <SpanishWines:acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</SpanishWines:acidity_value>
-        <SpanishWines:body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</SpanishWines:body_value>
-        <SpanishWines:numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70</SpanishWines:numreviews_value>
-        <SpanishWines:price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1182.77</SpanishWines:price_value>
-        <SpanishWines:rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</SpanishWines:rating_value>
-        <SpanishWines:year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1985</SpanishWines:year_value>
+        <elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Ribera_Del_Duero_Red"/>
+        <has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Ribera_del_Duero"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Vega_Sicilia"/>
+        <acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</acidity_value>
+        <body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</body_value>
+        <numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70</numreviews_value>
+        <price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1182.77</price_value>
+        <rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</rating_value>
+        <year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1985</year_value>
     </owl:NamedIndividual>
     
 
@@ -1169,15 +1166,15 @@ https://creativecommons.org/licenses/by/4.0/</dc:rights>
     <!-- http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#1902_Centenary_Carignan_Priorat_2013 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#1902_Centenary_Carignan_Priorat_2013">
-        <SpanishWines:elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorat_Red"/>
-        <SpanishWines:has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorato"/>
-        <SpanishWines:produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Mas_Doix"/>
-        <SpanishWines:acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</SpanishWines:acidity_value>
-        <SpanishWines:body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</SpanishWines:body_value>
-        <SpanishWines:numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</SpanishWines:numreviews_value>
-        <SpanishWines:price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">447.95</SpanishWines:price_value>
-        <SpanishWines:rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</SpanishWines:rating_value>
-        <SpanishWines:year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2013</SpanishWines:year_value>
+        <elaborated_with_fermented_grape rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorat_Red"/>
+        <has_wine_region rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Priorato"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/esteve/ontologies/2023/3/SpanishWines#Mas_Doix"/>
+        <acidity_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</acidity_value>
+        <body_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</body_value>
+        <numreviews_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</numreviews_value>
+        <price_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">447.95</price_value>
+        <rating_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</rating_value>
+        <year_value rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2013</year_value>
     </owl:NamedIndividual>
     
 
